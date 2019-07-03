@@ -50,7 +50,6 @@ puts ursula.their_cars.include?(stella)
 
 # Get a list of all the mechanics that a specific owner goes to
 
-
 puts "-----------------------"
 # Get the average amount of cars owned for all owners
 CarOwner.all.each {|owner| puts "#{owner.name} owns #{owner.for_tax_purposes} cars: #{(owner.their_cars.map {|car| p car.model })}" }
